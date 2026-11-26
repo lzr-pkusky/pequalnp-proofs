@@ -1,0 +1,1 @@
+PEqualNP.Represents.RepSizeAtMost (fun u v : Fin 8 => (10852103239182430665 : ℕ).testBit (8 * u.val + v.val)) 32

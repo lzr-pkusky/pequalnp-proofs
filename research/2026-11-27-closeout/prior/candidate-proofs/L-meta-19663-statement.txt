@@ -1,0 +1,1 @@
+∃ C : PEqualNP.CircuitLowerBounds.Circuit, PEqualNP.MetaComplexity.FanInTwo C ∧ C.size ≤ 10 ∧ PEqualNP.Represents.Represents (fun u v : Fin 5 => (16269521 : ℕ).testBit (5 * u.val + v.val)) C

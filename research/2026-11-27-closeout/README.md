@@ -1,0 +1,10 @@
+# P vs NP research closeout, 27 November 2026
+
+This archive records local results and reusable research inputs. The source checkout used Lean 4.36.0 and project revision `25493cae4df9e77a9a1f811062c5bc673c5cdf50`. The archive includes existing certificates, circuits, search programs, and logs. Candidate files under `prior/upstream-credit/candidates/` include proposals at different verification stages. A candidate file alone establishes neither a checker result nor upstream eligibility.
+
+- [L-meta-20991](L-meta-20991/README.md) contains the Lean-checked LRAT certificate for the seven-gate SAT encoding, its reproduction instructions, and the eight-gate witness. Decompress `full-7.lrat.gz` before checking.
+- [L-meta-20978](L-meta-20978/README.md), [L-meta-17976](L-meta-17976/README.md), and [L-meta-20448](L-meta-20448/README.md) record negative search evidence with positive controls.
+- [L-meta-18726](https://github.com/lzr-pkusky/pequalnp-proofs/tree/research/l-meta-18726-counterexample/research/L-meta-18726), [L-meta-2215](https://github.com/lzr-pkusky/pequalnp-proofs/tree/research/l-meta-2215-incidence/research/L-meta-2215), [L-meta-4675](https://github.com/lzr-pkusky/pequalnp-proofs/tree/research/l-meta-4675-star-forest/research/L-meta-4675), and [L-meta-18649](https://github.com/lzr-pkusky/pequalnp-proofs/tree/research/l-meta-18649-gate-elimination/research/L-meta-18649) already have dedicated branches.
+- [PR #27415](https://github.com/open-goat/pequalnp-proofs/pull/27415#issuecomment-7197192202) received an upstream `ACCEPTED (checker exit 0)` verdict. It was still open at closeout. The [session log](session-log.md) records the earlier state.
+
+The `prior/` directory preserves the original shared Python search builder and earlier research scripts. Scripts written in the original desktop workspace may expect the builder and the bundled CaDiCaL in their original relative locations. Use the archived source and an installed CaDiCaL 2.1.2 when reproducing the archived runs. No desk state is included.
